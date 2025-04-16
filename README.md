@@ -5,8 +5,7 @@ This iOS application was built as part of a coding challenge to demonstrate prac
 ### 🔧 Requirements
 
 - The app contains a **single view** displaying all data in a **UITableView**
-- **Data is fetched** from the API on every `viewDidAppear`:  
-  `https://jsonplaceholder.typicode.com/photos`
+- **Data is fetched** from the API
 - **Fetched data is saved offline** using Core Data
 - **Images are cached** in the document directory to avoid repeated downloads
 - **Data is grouped by `albumId`** in the table view
